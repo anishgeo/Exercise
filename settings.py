@@ -13,8 +13,7 @@ DATABASES = {
     'default': {
 #        Local DB
           'ENGINE': 'django.db.backends.mysql', # Add 'postgresql_psycopg2', 'mysql', 'sqlite3' or 'oracle'.
-          'NAME': 'pmodash',
-#           The following settings are not used with sqlite3:
+          'NAME': 'exercise',
           'USER': 'user',
           'PASSWORD': 'user@123',
           'HOST': 'localhost',                      # Empty for localhost through domain sockets or '127.0.0.1' for localhost through TCP.
@@ -125,7 +124,7 @@ INSTALLED_APPS = (
     'django.contrib.admin',
     # Uncomment the next line to enable admin documentation:
     # 'django.contrib.admindocs',
-    'tasklist,'
+    'tasklist',
 )
 
 SESSION_SERIALIZER = 'django.contrib.sessions.serializers.JSONSerializer'
